@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Filtered list for HKU CC (2025-08-19)</title>
+<meta name="author" content="github.com/rcky844">
+<meta name="description" content="Filtered list for HKU CC (2025-08-19)">
+<meta name="keywords" content="hku,cc">
+
+<meta property="og:title" content="Markdown-Tag Demo" />
+<meta property="og:description" content="Markdown Tag - Add markdown support to your website using a <md> tag." />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<github-md>
+*Thinking...*
+
+> **Defining the Data Structures**
+>
+> I'm currently working on how to efficiently parse the course data. My approach involves defining the key data structures: what represents a single course, what represents a semester's worth of courses, and ultimately, how I'll organize the final markdown output. I’m leaning towards a dictionary-based representation for flexibility.
+>
+>
+> **Mapping the Course Filters**
+>
+> I'm now focusing on the filtering logic. I've identified the core criteria: "Online" courses are always included, courses on Wednesday starting at or after 13:00 are also included, and all courses on Saturday are included. I'm planning to structure this as a series of nested conditional statements to efficiently determine course availability. The irrelevant Monday constraint has been noted for future considerations.
+>
+>
+> **Structuring Markdown Tables**
+>
+> I've moved on to structuring the Markdown output. I'm planning to build the tables dynamically, iterating through the filtered course data. I'll use a loop to create a table for each semester and then insert each course's data as a row. The goal is to generate clean, readable tables directly suitable for the final document.
+>
+>
+> **Refining Filtering Logic**
+>
+> I've thoroughly analyzed the filtering conditions with test cases, confirming that all the provided courses will be included. My primary focus has now shifted to formatting the output, essentially creating two Markdown tables. I plan to iterate through the data, adding each course as a row to its corresponding semester table.
+>
+>
+> **Refining Table Generation**
+>
+> I've analyzed the given data and confirmed that all courses meet the user's criteria, eliminating the need for complex filtering. Now, I'm focused on generating the Markdown tables. My current approach involves creating the table headers, then iterating through the data twice – once for each semester – to populate the table rows. I plan to use a simple, direct approach to build the tables.
+>
+>
+Of course. Based on your specified time constraints, here is a list of all available courses, filtered from the data you provided and organized by semester into Markdown tables.
+
+### Semester 1
+
+| Area of inquiry | Course code | Course Title | Course co-ordinator | Day | Time | Venue | Quota for regular students | Quote for exchange students |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Scientific and Technological Literacy | CCST5035 | Making Sense of Science-related Social Issues (Online) | Jessica S.C. LEUNG | Wed | 13:00 -- 14:50 | Online | 120 | 0 |
+| Scientific and Technological Literacy | CCST5037 | Mathematics: A Cultural Heritage (Online) | Benjamin R. KANE | Wed | 13:00 -- 14:50 | Online | 120 | 0 |
+| Scientific and Technological Literacy | CCST9003 | Everyday Computing and the Internet | Lawrence K. YEUNG | Wed | 17:00 -- 18:50 | KKLG109 | 120 | 6 |
+| Scientific and Technological Literacy | CCST9006 | Chasing Biomedical Miracles: Promises and Perils | Joanna W.Y. HO | Wed | 17:00 -- 19:50 | CPD-LG.08 | 120 | 6 |
+| Scientific and Technological Literacy | CCST9009 | Living with Stem Cells | Danny CHAN | Wed | 15:00 -- 16:50 | CPD-LG.09 | 120 | 6 |
+| Scientific and Technological Literacy | CCST9013 | Our Living Environment | H.M.C. CHEUNG | Wed | 13:00 -- 14:50 | KK201 | 120 | 0 |
+| Scientific and Technological Literacy | CCST9016 | Energy: Its Evolution and Environmental Impacts | Match W. L. KO | Wed | 13:00 -- 14:50 | LE4 | 120 | 6 |
+| Scientific and Technological Literacy | CCST9017 | Hidden Order in Daily Life: A Mathematical Perspective (Section A) | Patrick T.W. NG | Wed | 17:00 -- 18:50 | MWT2 | 120 | 6 |
+| Scientific and Technological Literacy | CCST9017 | Hidden Order in Daily Life: A Mathematical Perspective (Section B) | Patrick T.W. NG | Wed | 17:00 -- 18:50 | MWT2 | 120 | 6 |
+| Scientific and Technological Literacy | CCST9020 | Sustainable Development of the Built Environment | K. SHIH | Wed | 15:00 -- 16:50 | CYPP3 | 120 | 6 |
+| Scientific and Technological Literacy | CCST9022 | How the Mass Media Depicts Science, Technology and the Natural World | H.F. CHAU | Wed | 13:00 -- 14:50 | MB167 | 120 | 0 |
+| Scientific and Technological Literacy | CCST9025* | Genetics and Human Nature (Section A) | P.C. SHAM | Wed | 15:00 -- 16:50 | MWT7 | 120 | 6 |
+| Scientific and Technological Literacy | CCST9026 | Scientific Revolutions: Their Continuing Impact on Our World and Society | Quentin A. PARKER | Wed | 13:00 -- 14:50 | CYPP4 | 120 | 6 |
+| Scientific and Technological Literacy | CCST9027 | The Science of Irrational Thinking | Jeffrey A. SAUNDERS | Wed | 15:00 -- 16:50 | MWT6 | 120 | 4 |
+| Scientific and Technological Literacy | CCST9030 | Forensic Science: Unmasking Evidence, Mysteries and Crimes | Zheng Xiao GUO | Wed | 17:00 -- 18:50 | KK202 | 120 | 0 |
+| Scientific and Technological Literacy | CCST9034 | Living in a Hazardous World | L.S. RAN | Wed | 15:00 -- 16:50 | KK102 | 120 | 0 |
+| Scientific and Technological Literacy | CCST9042 | The World of Waves | Alan C.H. TSANG | Wed | 13:00 -- 14:50 | MWT1 | 288 | 6 |
+| Scientific and Technological Literacy | CCST9051 | What are We Made of -- the Fundamental Nature of Matter | Jason C.S. PUN | Wed | 17:00 -- 18:50 | KK102 | 120 | 0 |
+| Scientific and Technological Literacy | CCST9056 | The Force is with You: How Things Work | Francis C.C. LING | Wed | 13:00 -- 14:50 | CYPP2 | 120 | 6 |
+| Scientific and Technological Literacy | CCST9062 | Sports: For you and Hong Kong | Queenie W.S. SEE | Wed | 15:00 -- 16:50 | KK202 | 120 | 0 |
+| Scientific and Technological Literacy | CCST9064 | The World Changed by DNA | Brian H.Y. CHUNG | Wed | 15:00 -- 16:50 | KK101 | 120 | 0 |
+| Scientific and Technological Literacy | CCST9070 | Nature-inspired Innovations | Kelvin W.K. YEUNG | Wed | 13:00 -- 14:50 | CYPP3 | 120 | 6 |
+| Scientific and Technological Literacy | CCST9076 | Attention Magnet: The Psychological and Technological Aspects of Social Media Addiction | Shihui FENG | Wed | 17:00 -- 18:50 | MWT6 | 120 | 4 |
+| Scientific and Technological Literacy | CCST9077 | The Quantum Revolution: From Secret Codes to Black Holes | Yuxiang YANG | Wed | 17:00 -- 18:50 | LE2 | 120 | 4 |
+| Scientific and Technological Literacy | CCST9078 | Health Literacy: Things to Know Before Consulting Dr. AI | Eric Y.F. WAN | Wed | 15:00 -- 16:50 | MWT2 | 120 | 6 |
+| Scientific and Technological Literacy | CCST9081 | All You’ve Ever Wanted to Know About Humans | Michael B.C. RIVERA | Wed | 15:00 -- 16:50 | CPD-LG.01 | 288 | 6 |
+| Scientific and Technological Literacy | CCST9083 | Earth as Seen by Satellite | Shunlin LIANG | Wed | 13:00 -- 14:50 | MWT7 | 120 | 6 |
+| Scientific and Technological Literacy | CCST9084 | From Ancient Remedies to Modern Medicine: A Historical Perspective on Health Technology | Tak Man WONG | Wed | 15:00 -- 16:50 | CYPP2 | 120 | 6 |
+| Scientific and Technological Literacy | CCST9086 | Scientific Thinking in Life and Society | Wanling YANG | Wed | 13:00 -- 14:50 | KK202 | 120 | 0 |
+| Arts and Humanities | CCHU9002 | Battles for Bodies: The Birth of Surveillance Society | Alison Y.W. SO | Wed | 13:00 -- 14:50 | CYCC501 | 120 | 6 |
+| Arts and Humanities | CCHU9005 | Food and Values | Joe Y.F. LAU | Wed | 13:00 -- 14:50 | CPD-LG.01 | 288 | 6 |
+| Arts and Humanities | CCHU9006 | Girl Power in a Man’s World | Nirmala RAO | Wed | 13:00 -- 14:50 | MWT4 | 110 | 0 |
+| Arts and Humanities | CCHU9007* | Sexuality and Gender: Diversity and Society (Section A) | Brenda B.R. ALEGRE | Wed | 13:00 -- 14:50 | LE1 | 120 | 6 |
+| Arts and Humanities | CCHU9009 | Moral Controversies in Contemporary Society | David Birks | Wed | 17:00 -- 18:50 | MB201 | 120 | 0 |
+| Arts and Humanities | CCHU9011 | Social Divisions in Contemporary Societies | Samson S.K TSE | Wed | 13:00 -- 14:50 | MB201 | 120 | 5 |
+| Arts and Humanities | CCHU9012 | Body, Beauty and Fashion | Carmen K.M. TONG | Wed | 13:00 -- 14:50 | KB223 | 120 | 6 |
+| Arts and Humanities | CCHU9013 | Cultural Heritage in the Contemporary World | Steve W.L. CHEUNG | Wed | 13:00 -- 14:50 | LE5 | 120 | 6 |
+| Arts and Humanities | CCHU9019 | From Health to Well-being | Julie Y. CHEN | Wed | 15:00 -- 16:50 | MB201 | 120 | 5 |
+| Arts and Humanities | CCHU9021* | Critical Thinking in Contemporary Society (Section A) | Arthur C.S. CHIN | Wed | 15:00 -- 16:50 | LE2 | 120 | 4 |
+| Arts and Humanities | CCHU9022 | Journey into Madness: Conceptions of Mental Health and Mental Illness | Paul W.C. WONG | Wed | 15:00 -- 16:50 | CPD-LG.10 | 120 | 6 |
+| Arts and Humanities | CCHU9039* | Sexuality and Culture (Section A) | William C.W. WONG | Wed | 17:00 -- 18:50 | MWT7 | 120 | 6 |
+| Arts and Humanities | CCHU9049 | Reinventing Classical Music | Jose V. NEGLIA | Wed | 15:00 -- 16:50 | CPD-1.24 | 116 | 0 |
+| Arts and Humanities | CCHU9052 | The Best Things in Life: A Philosophical Exploration | Yutang JIN | Wed | 13:00 -- 14:50 | CPD-1.24 | 116 | 0 |
+| Arts and Humanities | CCHU9053 | Contested Words, Disputed Symbols | Sinead M.K. KWOK | Wed | 15:00 -- 16:50 | CPD-LG.08 | 120 | 6 |
+| Arts and Humanities | CCHU9060 | Gaming: Play, Learning and Society | Guang OUYANG | Wed | 15:00 -- 16:50 | MWT1 | 120 | 6 |
+| Arts and Humanities | CCHU9062 | Buddhist Visions in World Cinema | Jnan NANDA | Wed | 17:00 -- 18:50 | CYPP2 | 120 | 6 |
+| Arts and Humanities | CCHU9075 | Buddhist Architecture: Monasteries in Cross-Cultural Developments | W.J. WANG | Wed | 17:00 -- 18:50 | MB217 | 120 | 6 |
+| Arts and Humanities | CCHU9076 | The Journalist: Comics, Movies, Fiction and Fact | Jennifer S. DEAYTON | Wed | 15:00 -- 16:50 | MWT3 | 120 | 6 |
+| Arts and Humanities | CCHU9078* | Contemplative Practices: From Personal Awareness to Social Well-being (Section A) | Adrian H.Y. WAN | Wed | 17:00 -- 18:50 | CPD-3.04 | 120 | 6 |
+| Arts and Humanities | CCHU9079 | Art, Performance, Sexuality and Cities | Brenda B.R. ALEGRE | Wed | 17:00 -- 18:50 | LE1 | 120 | 6 |
+| Arts and Humanities | CCHU9081 | Urban Legend: Fact, Myth and Reinterpretation | C.P. TAI | Wed | 15:00 -- 16:50 | LE1 | 120 | 6 |
+| Arts and Humanities | CCHU9086 | Understanding Religious Worlds | G.A. Somaratne | Wed | 13:00 -- 14:50 | CPD-LG.07 | 120 | 6 |
+| Arts and Humanities | CCHU9092 | Disabling Society | Don KULICK | Wed | 13:00 -- 14:50 | CPD-LG.09 | 120 | 6 |
+| Global Issues | CCGL5005 | Poverty, Development, and the Next Generation: Challenges for a Global World (Online) | Hugo HORTA | Wed | 13:00 -- 14:50 | Online | 120 | 0 |
+| Global Issues | CCGL5062 | Shaping our Health Across Cultures (Online) | Abraham K.C. WAI | Wed | 17:00 -- 18:50 | Online | 120 | 0 |
+| Global Issues | CCGL9001* | Hong Kong Cinema through a Global Lens (Section A) | F.Y.W. LAW | Wed | 13:00 -- 14:50 | CPD-3.04 | 120 | 6 |
+| Global Issues | CCGL9002* | Hong Kong Culture in the Context of Globalization (Section A) | F.Y.W. LAW | Wed | 15:00 -- 16:50 | CPD-3.04 | 120 | 6 |
+| Global Issues | CCGL9007* | Youth in a Global World (Section A) | Ben M.F. LAW | Wed | 13:00 -- 14:50 | KKLG109 | 120 | 0 |
+| Global Issues | CCGL9010 | Sports Culture under Global Capitalism | Marco MONTAGNER | Wed | 17:00 -- 18:50 | LE5 | 120 | 6 |
+| Global Issues | CCGL9011 | Media in the Age of Globalization | K.W. FU | Wed | 15:00 -- 16:50 | CYPP4 | 120 | 6 |
+| Global Issues | CCGL9015 | Globalization and Migration | Samson A. BEZABEH | Wed | 17:00 -- 18:50 | KB223 | 120 | 6 |
+| Global Issues | CCGL9016 | Feeding the World | George V. AKOM | Sat | 11:00 -- 12:50 | CYPP4 | 120 | 6 |
+| Global Issues | CCGL9018* | Corporate Social Responsibility (Section A) | Sammy L.K. FUNG | Sat | 11:00 -- 12:50 | KK202 | 120 | 0 |
+| Global Issues | CCGL9019 | Economic Globalization: Issues and Challenges | Yim Fai LUK | Wed | 13:00 -- 14:50 | KK101 | 120 | 0 |
+| Global Issues | CCGL9024 | The Life and Death of Languages: Diversity, Identity and Globalization | Winnie S.Y. Ho | Wed | 13:00 -- 14:50 | MWT3 | 120 | 6 |
+| Global Issues | CCGL9025 | The Political Economy of Growth and Poverty in the World | Vera W.H. YUEN | Wed | 13:00 -- 14:50 | MBG07 | 110 | 0 |
+| Global Issues | CCGL9031* | Entrepreneurship: Global and Social Development (Section A) | Simon S.K. LAM | Wed | 15:00 -- 16:50 | KK201 | 120 | 0 |
+| Global Issues | CCGL9036 | Dilemmas of Humanitarian Intervention | Ian M. HOLLIDAY | Wed | 13:00 -- 14:50 | LE2 | 120 | 0 |
+| Global Issues | CCGL9040 | Energy Futures, Globalization and Sustainability | Vivian H.Y. CHU | Wed | 15:00 -- 16:50 | LE5 | 120 | 6 |
+| Global Issues | CCGL9042* | The Evolution of Civilization (Section A) | Larry W. BAUM | Wed | 17:00 -- 18:50 | KK101 | 120 | 0 |
+| Global Issues | CCGL9053* | Suicide: Risks, Research, and Realities (Section A) | Paul S.F. YIP | Wed | 15:00 -- 16:50 | CPD-LG.07 | 120 | 6 |
+| Global Issues | CCGL9058 | Villages and Global Futures | Winnie W.Y. LAW | Wed | 17:00 -- 18:50 | MBG07 | 110 | 0 |
+| Global Issues | CCGL9066 | Music and Global Politics: From Beethoven to Beyoncé and Beyond | Adam J. SACKS | Wed | 17:00 -- 18:50 | KK201 | 120 | 0 |
+| Global Issues | CCGL9074 | Unleashing the Power of Big Data in Global Cities | Yimeng SONG | Wed | 17:00 -- 18:50 | CYCP1 | 120 | 6 |
+| Global Issues | CCGL9076 | Material Matters -- Global Perspectives and Local Practices | Susanne E. TRUMPF | Wed | 15:00 -- 16:50 | MBG07 | 80 | 6 |
+| Global Issues | CCGL9078 | Games in Everyday Life: Exploring Game Theory, Behavioural Finance and Global Issues | Stephen Y.W. CHIU | Wed | 13:00 -- 14:50 | MB217 | 120 | 6 |
+| Global Issues | CCGL9079* | Leadership and Influence in a Dynamic World (Section A) | David S. LEE | Wed | 13:00 -- 14:50 | KK102 | 120 | 0 |
+| Global Issues | CCGL9082 | Sustaining Sustainability: Innovations for Policies and Governance | Jessica M. WILLIAMS | Wed | 17:00 -- 18:50 | CPD-LG.09 | 120 | 6 |
+| Global Issues | CCGL9083 | Happiness Amidst Climate Crisis? | Jeremy A. RAPPLEYE | Wed | 13:00 -- 14:50 | MWT6 | 120 | 4 |
+| China: Culture, State and Society | CCCH5054 | Mothering China: From the Womb to the Nation (Online) | Carol C.L. TSANG | Wed | 15:00 -- 16:50 | Online | 120 | 0 |
+| China: Culture, State and Society | CCCH9005* | The Chinese Cultural Revolution (Section A) | Aihe WANG | Wed | 15:00 -- 16:50 | WLGH | 120 | 6 |
+| China: Culture, State and Society | CCCH9005* | The Chinese Cultural Revolution (Section B) | Aihe WANG | Wed | 15:00 -- 16:50 | WLGH | 120 | 6 |
+| China: Culture, State and Society | CCCH9007* | China in the Global Economy (Section A) | Jing LI | Wed | 15:00 -- 16:50 | KKLG109 | 120 | 6 |
+| China: Culture, State and Society | CCCH9010 | Understanding China’s Governance: Challenges and Prospects | Xiaoqi WANG | Wed | 13:00 -- 14:50 | CPD-3.28 | 120 | 0 |
+| China: Culture, State and Society | CCCH9012 | China and World Order | Peter T.Y. CHEUNG | Wed | 15:00 -- 16:50 | MB217 | 120 | 0 |
+| China: Culture, State and Society | CCCH9015 | Population, Society and Sustainable Development in Hong Kong | Paul S.F. YIP | Wed | 17:00 -- 18:50 | CPD-LG.07 | 120 | 6 |
+| China: Culture, State and Society | CCCH9018* | Buddhism and Chinese Culture (Section A) | Xing GUANG | Wed | 17:00 -- 18:50 | CPD-LG.18 | 120 | 6 |
+| China: Culture, State and Society | CCCH9023 | Family and Development in Modern China | Peiyi LU | Wed | 15:00 -- 16:50 | CPD-3.28 | 120 | 6 |
+| China: Culture, State and Society | CCCH9026 | Rule of Law and China’s Economic Miracle | Zhuang LIU | Wed | 17:00 -- 18:50 | LE4 | 120 | 6 |
+| China: Culture, State and Society | CCCH9029 | Ideas and Practices of Healing Arts in Traditional Chinese Medicine | Zhang Jin ZHANG | Wed | 17:00 -- 18:50 | MWT1 | 288 | 6 |
+| China: Culture, State and Society | CCCH9031 | Property Rights, Built Heritage and Sustainable Development in Hong Kong | Lennon H.T. CHOY | Sat | 11:00 -- 12:50 | KK102 | 120 | 0 |
+| China: Culture, State and Society | CCCH9033 | Sustainable Urban Development and Hong Kong | Creighton P. CONNOLLY | Wed | 15:00 -- 16:50 | CYCP1 | 120 | 6 |
+| China: Culture, State and Society | CCCH9037 | Chinese Mythology | Isaac M.C. YUE | Wed | 13:00 -- 14:50 | CBA | 120 | 4 |
+| China: Culture, State and Society | CCCH9044 | Dunhuang and the Silk Road: Art, Culture and Trade | Chung-hui TSUI | Wed | 15:00 -- 16:50 | LE4 | 120 | 6 |
+| China: Culture, State and Society | CCCH9052 | Arts, Science and Artifacts in Chinese Cultural Heritage | Quentin A. PARKER | Wed | 17:00 -- 18:50 | CYPP4 | 120 | 6 |
+| China: Culture, State and Society | CCCH9059 | Encounters between China and the West | Hsueh-yi LIN | Wed | 13:00 -- 14:50 | CPD-LG.10 | 120 | 6 |
+| China: Culture, State and Society | CCCH9061 | Herstory in Motion: Chinese Womanhood through the Lens | Alison Y.W. SO | Wed | 17:00 -- 18:50 | CYCC501 | 120 | 6 |
+| China: Culture, State and Society | CCCH9064 | Exploring Chinese Tea: A Confluence of Art, Science, and Cultural Heritage | Ginger W.K. KO | Wed | 13:00 -- 14:50 | CPD-LG.18 | 120 | 6 |
+| China: Culture, State and Society | CCCH9067 | Man Up: Chinese Masculinities in the Making | Carol C.L. TSANG | Wed | 13:00 -- 14:50 | CPD-LG.08 | 120 | 6 |
+| Artificial Intelligence | CCAI9003 | AI Safety: Catastrophe, Alignment, and Governance | Simon D. GOLDSTEIN | Wed | 15:00 -- 16:50 | CPD-LG.18 | 120 | 6 |
+| Artificial Intelligence | CCAI9004 | AI, Achievement and Flourishing | Nathaniel P. SHARADIN | Wed | 13:00 -- 14:50 | CYCP1 | 120 | 6 |
+| Artificial Intelligence | CCAI9006 | AI and the Bio-Revolution | Junwen J. WANG | Wed | 15:00 -- 16:50 | KB223 | 120 | 6 |
+| Artificial Intelligence | CCAI9009 | Today’s Future City: Technology and the Recoding of Urban Life | Patrick J. ADLER | Wed | 15:00 -- 16:50 | CYCC501 | 120 | 6 |
+| Artificial Intelligence | CCAI9013* | Emotions and AI: Bridging Technology and Human Experience (Section A) | Nicole K.M. LAU | Wed | 17:00 -- 18:50 | CYPP3 | 120 | 6 |
+| Artificial Intelligence | CCAI9017 | Who Made This? Authorship and Art in the Age of AI | Kathryn P. GOLDSTEIN | Wed | 17:00 -- 18:50 | CPD-3.28 | 120 | 6 |
+| Artificial Intelligence | CCAI9018 | The Memeing of Life: Metaphor and Meaning in the AI Era | Jonathan W. JOHNSON | Wed | 17:00 -- 18:50 | MWT3 | 120 | 6 |
+| Artificial Intelligence | CCAI9020 | AI, Health and Me | Grace T. ZHANG | Wed | 15:00 -- 16:50 | MB167 | 120 | 0 |
+| Artificial Intelligence | CCAI9024 | Generative AI and the Future of Creativity | Bo DAI | Sat | 11:00 -- 12:50 | MWT6 | 120 | 4 |
+| Artificial Intelligence | CCAI9025 | AI-driven Robotics for Humankind | Hongyang LI | Wed | 13:00 -- 14:50 | WLGH | 120 | 6 |
+| Artificial Intelligence | CCAI9030 | Robot: Flesh, Machines, Intelligence | Peng LU | Wed | 15:00 -- 16:50 | CBA | 120 | 4 |
+| Artificial Intelligence | CCAI9032 | Virtual Worlds, Real Bodies | Yong Hong KUO | Wed | 17:00 -- 18:50 | CBA | 120 | 4 |
+| Artificial Intelligence | CCAI9033 | War and Peace 2.0: How AI Transforms Conflicts and Humanitarian Response | Chirstophe D.M. COUPE | Wed | 17:00 -- 18:50 | CPD-LG.10 | 120 | 6 |
+
+### Semester 2
+
+| Area of inquiry | Course code | Course Title | Course co-ordinator | Day | Time | Venue | Quota for regular students | Quote for exchange students |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Scientific and Technological Literacy | CCST9012 | Our Place in the Universe | Timothy D. WOTHERSPOON | Wed | 17:00 -- 18:50 | MWT2 | 120 | 6 |
+| Scientific and Technological Literacy | CCST9014 | Science and Music | Tran Trung LUU | Wed | 15:00 -- 16:50 | CYPP4 | 120 | 6 |
+| Scientific and Technological Literacy | CCST9018 | Origin and Evolution of Life | Kono H. LEMKE | Wed | 13:00 -- 14:50 | CPD-LG.01 | 120 | 6 |
+| Scientific and Technological Literacy | CCST9023 | The Oceans: Science and Society | Christelle A. NOT | Wed | 13:00 -- 14:50 | LE4 | 120 | 6 |
+| Scientific and Technological Literacy | CCST9025* | Genetics and Human Nature (Section B) | P.C. SHAM | Wed | 15:00 -- 16:50 | MWT7 | 120 | 6 |
+| Scientific and Technological Literacy | CCST9032 | “Intelligent” Architecture and Sustainability | Daniel C. MCKEE | Wed | 13:00 -- 14:50 | CYPP4 | 120 | 6 |
+| Scientific and Technological Literacy | CCST9033 | Left Brain, Right Brain: Science and Myth | Chih-Mao HUANG | Wed | 13:00 -- 14:50 | LE1 | 120 | 6 |
+| Scientific and Technological Literacy | CCST9045 | The Science and Lore of Culinary Culture | Angela M.Y. YUEN | Wed | 15:00 -- 16:50 | CYCP1 | 120 | 6 |
+| Scientific and Technological Literacy | CCST9067 | Leaving Earth: Our Future in Space | Joseph R. MICHALSKI | Wed | 17:00 -- 18:50 | LE5 | 120 | 6 |
+| Scientific and Technological Literacy | CCST9072 | Smile! Teeth and Society | Andy W.K. YEUNG | Wed | 15:00 -- 16:50 | MWT1 | 288 | 6 |
+| Scientific and Technological Literacy | CCST9073 | Emotion, Cognition, and Brain | Guang OUYANG | Wed | 15:00 -- 16:50 | MWT2 | 120 | 6 |
+| Scientific and Technological Literacy | CCST9074 | Water: Resources, Policy and Technology | K. SHIH | Wed | 17:00 -- 18:50 | CBA | 120 | 4 |
+| Scientific and Technological Literacy | CCST9075 | Be Fit! Be Active! | Youngwon KIM | Wed | 15:00 -- 16:50 | CPD-LG.07 | 120 | 6 |
+| Scientific and Technological Literacy | CCST9080 | FinTech: Financial Inclusion, Emerging Markets, and Social Value | Ka Ho CHOW | Wed | 13:00 -- 14:50 | MWT2 | 120 | 6 |
+| Scientific and Technological Literacy | CCST9088 | Cosmic Frontiers: How Discoveries are Made and their Scientific Impact | Jeremy J.L. LIM | Wed | 17:00 -- 18:50 | CYPP2 | 120 | 6 |
+| Scientific and Technological Literacy | CCST9089 | Nutrition, Well-being and Society | Joanna W.Y. HO | Wed | 13:00 -- 14:50 | MB201 | 120 | 5 |
+| Scientific and Technological Literacy | CCST9090 | Mindscapes: Psychiatry and Mental Health Across Creative and Scientific Frontiers | Simon S.Y. LUI | Wed | 17:00 -- 18:50 | CPD-LG.07 | 120 | 6 |
+| Scientific and Technological Literacy | CCST9091 | Unveiling Science and Technology in Cinema: Past, Present, and Future | Kelvin W.K. YEUNG | Wed | 13:00 -- 14:50 | CYPP3 | 120 | 6 |
+| Arts and Humanities | CCHU5074 | Beyond Fake News (Online) | Masato KAJIMOTO | Wed | 15:00 -- 17:50 | Online | 80 | 0 |
+| Arts and Humanities | CCHU5088 | We are Family: Myths, Realities and the Future (Online) | Carol C.L. TSANG | Wed | 13:00 -- 14:50 | Online | 120 | 0 |
+| Arts and Humanities | CCHU9007* | Sexuality and Gender: Diversity and Society (Section B) | Brenda B.R. ALEGRE | Wed | 15:00 -- 16:50 | LE1 | 120 | 6 |
+| Arts and Humanities | CCHU9010 | Being Different: Understanding People with Disabilities | Sandra K.M. TSANG | Wed | 13:00 -- 14:50 | LE5 | 120 | 6 |
+| Arts and Humanities | CCHU9014 | Spirituality, Religion and Social Change | David A. PALMER | Wed | 17:00 -- 18:50 | CPD-LG.09 | 120 | 6 |
+| Arts and Humanities | CCHU9015 | Sex and Intimacy in Modern Times | Cassini S.K. CHU | Sat | 11:00 -- 12:50 | CPD-3.04 | 120 | 6 |
+| Arts and Humanities | CCHU9021* | Critical Thinking in Contemporary Society (Section B) | Arthur C.S. CHIN | Wed | 13:00 -- 14:50 | LE2 | 120 | 4 |
+| Arts and Humanities | CCHU9030 | Image, Space and Society | Haotian ZHANG | Wed | 17:00 -- 18:50 | LE2 | 120 | 4 |
+| Arts and Humanities | CCHU9032 | Language, Institution and Power | Brian W. KING | Wed | 13:00 -- 14:50 | CPD-LG.09 | 120 | 6 |
+| Arts and Humanities | CCHU9034 | Architecture and Film | Alessandra CIANCHETTA | Wed | 17:00 -- 18:50 | KKLG109 | 120 | 6 |
+| Arts and Humanities | CCHU9039* | Sexuality and Culture (Section B) | William C.W. WONG | Wed | 17:00 -- 18:50 | MWT7 | 120 | 6 |
+| Arts and Humanities | CCHU9043 | Rethinking Women: The Big Debates | Carol C.L. TSANG | Wed | 15:00 -- 16:50 | CPD-3.04 | 120 | 6 |
+| Arts and Humanities | CCHU9044 | Creative Arts as a Way of Knowing | Rainbow T.H. HO | Wed | 17:00 -- 18:50 | KK201 | 120 | 0 |
+| Arts and Humanities | CCHU9045 | Vision: The Science and Art of Perception | Queenie W.S. SEE | Wed | 17:00 -- 18:50 | KK101 | 120 | 0 |
+| Arts and Humanities | CCHU9048 | The City: Histories of Urbanism and the Built Environment | Linda SHETABI | Wed | 17:00 -- 18:50 | LE4 | 120 | 6 |
+| Arts and Humanities | CCHU9051 | Mysteries of the Human Mind | Amit CHATURVEDI | Wed | 15:00 -- 16:50 | LE5 | 120 | 6 |
+| Arts and Humanities | CCHU9065 | A Life Worth Living | Daniel K.L. CHUA | Wed | 15:00 -- 16:50 | CPD-LG.01 | 480 | 6 |
+| Arts and Humanities | CCHU9068 | Shaping our World: Liberalism, Socialism and Nationalism | Richard Y.C. WONG | Wed | 17:00 -- 18:50 | KB223 | 120 | 6 |
+| Arts and Humanities | CCHU9069 | Economic Logic of Civilizations: How Human Societies have Innovated to Deal with Risk | Zhiwu CHEN | Wed | 13:00 -- 14:50 | KK101 | 120 | 0 |
+| Arts and Humanities | CCHU9078* | Contemplative Practices: From Personal Awareness to Social Well-being (Section B) | Adrian H.Y. WAN | Wed | 17:00 -- 18:50 | CPD-LG.18 | 120 | 6 |
+| Arts and Humanities | CCHU9080 | Dead People’s Things: Excavating the Past with Archaeology | Peter J. COBB | Wed | 15:00 -- 16:50 | MB217 | 120 | 6 |
+| Arts and Humanities | CCHU9084 | The Law in Everyday Life | Anya M. ADAIR | Wed | 15:00 -- 16:50 | CPD-LG.10 | 120 | 6 |
+| Arts and Humanities | CCHU9090 | Love, Morality, and the Meaning of Human Relationships | Carl HILDEBRAND | Wed | 13:00 -- 14:50 | KB223 | 120 | 6 |
+| Arts and Humanities | CCHU9091 | Art and Modernity | Greg M. THOMAS | Wed | 13:00 -- 14:50 | CPD-LG.18 | 120 | 6 |
+| Arts and Humanities | CCHU9093 | Everyday Ethics and the Moral Imagination | Catherine E. HARDIE | Wed | 17:00 -- 18:50 | MB217 | 120 | 6 |
+| Arts and Humanities | CCHU9094 | From Grunts to Grammar: The Evolution of Human Communication | Lawrence M. NG | Wed | 13:00 -- 14:50 | MWT6 | 120 | 4 |
+| Global Issues | CCGL5022 | Globalization in Question: Human and Economic Consequences (Online) | M. Nutsa KOBAKHIDZE | Wed | 17:00 -- 18:50 | Online | 120 | 0 |
+| Global Issues | CCGL5048 | Global Crime and Injustice (Online) | Paul JOOSSE | Wed | 13:00 -- 14:50 | Online | 120 | 0 |
+| Global Issues | CCGL9001* | Hong Kong Cinema through a Global Lens (Section B) | F.Y.W. LAW | Wed | 13:00 -- 14:50 | CPD-LG.08 | 120 | 6 |
+| Global Issues | CCGL9002* | Hong Kong Culture in the Context of Globalization (Section B) | F.Y.W. LAW | Wed | 15:00 -- 16:50 | CPD-LG.08 | 120 | 6 |
+| Global Issues | CCGL9007* | Youth in a Global World (Section B) | Muhammad HAFIZ | Wed | 13:00 -- 14:50 | CYPP2 | 120 | 6 |
+| Global Issues | CCGL9014 | Thinking about Global Ethics | Uwe STEINHOFF | Wed | 17:00 -- 18:50 | MB201 | 120 | 0 |
+| Global Issues | CCGL9018* | Corporate Social Responsibility (Section B) | Sammy L.K. FUNG | Wed | 15:00 -- 16:50 | LE2 | 120 | 4 |
+| Global Issues | CCGL9026 | Think Global, Act Local: You, Hong Kong, and the World | Kyung-min NAM | Wed | 13:00 -- 14:50 | KK201 | 120 | 0 |
+| Global Issues | CCGL9030 | Financial Crises: History, Solutions, and Our Economic Futures | Maurice K.S. TSE | Wed | 17:00 -- 18:50 | MWT1 | 288 | 6 |
+| Global Issues | CCGL9031* | Entrepreneurship: Global and Social Development (Section B) | Simon S.K. LAM | Wed | 15:00 -- 16:50 | KK102 | 120 | 0 |
+| Global Issues | CCGL9032 | Rule of Law in a Globalizing World | Stefano OSELLA | Wed | 17:00 -- 18:50 | CPD-3.04 | 120 | 6 |
+| Global Issues | CCGL9042* | The Evolution of Civilization (Section B) | Larry W. BAUM | Wed | 17:00 -- 18:50 | CYPP4 | 120 | 6 |
+| Global Issues | CCGL9049 | Carbon, Money, and Lifestyle | Nicky Y.F. LAM | Wed | 15:00 -- 16:50 | MB201 | 120 | 5 |
+| Global Issues | CCGL9052 | Some We Love, Some We Eat: Human-Animal Relationships in the Global Marketplace | Carmen K.M. TONG | Wed | 15:00 -- 16:50 | KK201 | 120 | 0 |
+| Global Issues | CCGL9053* | Suicide: Risks, Research, and Realities (Section B) | Paul S.F. YIP | Wed | 17:00 -- 18:50 | CPD-LG.08 | 120 | 6 |
+| Global Issues | CCGL9059 | Water in a Changing World | George V. AKOM | Wed | 17:00 -- 18:50 | CYPP3 | 120 | 6 |
+| Global Issues | CCGL9065 | Our Response to Climate Change: Hong Kong 2100 | Hongshan GUO | Wed | 15:00 -- 16:50 | LE4 | 120 | 6 |
+| Global Issues | CCGL9068 | Social Entrepreneurship for Social Impact | Vivian H.Y. CHU | Wed | 13:00 -- 14:50 | CPD-LG.07 | 120 | 6 |
+| Global Issues | CCGL9070 | The Making of Cities and Societies | Samuel Y. CHEN | Wed | 15:00 -- 16:50 | MWT6 | 120 | 4 |
+| Global Issues | CCGL9077 | Education as Solution?: Debating Education round the Globe | Alison Y.W. SO | Wed | 17:00 -- 18:50 | KK102 | 120 | 0 |
+| Global Issues | CCGL9079* | Leadership and Influence in a Dynamic World (Section B) | David S. LEE | Wed | 13:00 -- 14:50 | KK202 | 120 | 0 |
+| Global Issues | CCGL9080 | Societies on the Water | Michael B.C. RIVERA | Wed | 13:00 -- 14:50 | CYCC501 | 120 | 6 |
+| Global Issues | CCGL9081 | One Planet, One Health | Ginger W.K. KO | Wed | 13:00 -- 14:50 | CYCP1 | 120 | 6 |
+| China: Culture, State and Society | CCCH5017 | People, Propaganda and Profit: Understanding Media in China (Online) | Li-fung CHO | Wed | 13:00 -- 14:50 | Online | 120 | 0 |
+| China: Culture, State and Society | CCCH5039 | Curing the Chinese: Medicine and Society in Modern China (Online) | Xiaoli TIAN | Wed | 15:00 -- 16:50 | Online | 120 | 0 |
+| China: Culture, State and Society | CCCH9002 | Chinese Cities in the 21st Century | Anthony G.O. YEH | Wed | 15:00 -- 16:50 | CYCC501 | 120 | 6 |
+| China: Culture, State and Society | CCCH9005* | The Chinese Cultural Revolution (Section C) | Aihe WANG | Wed | 13:00 -- 14:50 | WLGH | 120 | 6 |
+| China: Culture, State and Society | CCCH9005* | The Chinese Cultural Revolution (Section D) | Aihe WANG | Wed | 13:00 -- 14:50 | WLGH | 120 | 6 |
+| China: Culture, State and Society | CCCH9007* | China in the Global Economy (Section B) | Haishi LI | Sat | 11:00 -- 12:50 | KKLG109 | 120 | 6 |
+| China: Culture, State and Society | CCCH9014 | Social Development: China, Asia, and the World | Chenhong PENG | Wed | 15:00 -- 16:50 | KB223 | 120 | 6 |
+| China: Culture, State and Society | CCCH9018* | Buddhism and Chinese Culture (Section B) | Xing GUANG | Wed | 17:00 -- 18:50 | CPD-3.28 | 120 | 6 |
+| China: Culture, State and Society | CCCH9019 | Emperors | Aihe WANG | Wed | 15:00 -- 16:50 | WLGH | 120 | 6 |
+| China: Culture, State and Society | CCCH9027 | China’s Ethnic Groups: Pluralism and Assimilation | Gerard A. POSTIGLIONE | Wed | 17:00 -- 18:50 | MWT3 | 120 | 6 |
+| China: Culture, State and Society | CCCH9028 | Hong Kong and China’s Economic Development | Yim Fai LUK | Wed | 15:00 -- 16:50 | KK202 | 120 | 0 |
+| China: Culture, State and Society | CCCH9032 | Sports and Chinese Society | Guoqi XU | Wed | 13:00 -- 14:50 | MWT7 | 120 | 6 |
+| China: Culture, State and Society | CCCH9041 | The Rule of Law in Modern China | Albert H.Y. CHEN | Wed | 15:00 -- 16:50 | CPD-3.28 | 120 | 6 |
+| China: Culture, State and Society | CCCH9042 | Corruption and Anticorruption in China | Jessica L.E. HUN | Wed | 13:00 -- 14:50 | CPD-3.28 | 120 | 0 |
+| China: Culture, State and Society | CCCH9050 | Blessings or Curses? World Heritage Sites in China and their Sustainability | K.S. YU | Wed | 17:00 -- 18:50 | MWT6 | 120 | 4 |
+| China: Culture, State and Society | CCCH9051 | Digitizing Cultural Heritage in Greater China | Jeremy T. D. NG | Wed | 15:00 -- 16:50 | MWT3 | 120 | 6 |
+| China: Culture, State and Society | CCCH9057 | Shaping Health in China | Abraham K.C. WAI | Wed | 13:00 -- 14:50 | MB167 | 120 | 0 |
+| China: Culture, State and Society | CCCH9058 | Talking About Politics: Chinese Debates in Political Thinking, Past and Present | Daniel A. BELL | Wed | 15:00 -- 16:50 | CPD-LG.18 | 120 | 6 |
+| China: Culture, State and Society | CCCH9060 | Probing the Local in Chinese Culture and Society | Richard V.N. SIMMONS | Wed | 17:00 -- 18:50 | CYCC501 | 120 | 6 |
+| China: Culture, State and Society | CCCH9062 | Encoding and Decoding China in International News | Ting SHI | Wed | 17:00 -- 18:50 | KK202 | 120 | 0 |
+| China: Culture, State and Society | CCCH9065 | What Archaeology Tells Us about Chinese Civilization | Xin SU | Wed | 15:00 -- 16:50 | CYPP2 | 120 | 6 |
+| China: Culture, State and Society | CCCH9066 | Buddhist Art and Cultural Integration in Asia | Chung-hui TSUI | Wed | 13:00 -- 14:50 | MWT1 | 120 | 6 |
+| Artificial Intelligence | CCAI5001 | Artificial Intelligence: Utopia or Dystopia? (Online) | Rachel K.W. LUI | Wed | 13:00 -- 14:50 | Online | 120 | 0 |
+| Artificial Intelligence | CCAI9001 | Brain, Buddhism, and AI | George K.C. LEE | Wed | 13:00 -- 14:50 | CPD-3.04 | 120 | 6 |
+| Artificial Intelligence | CCAI9002 | Thinking Machines: Philosophical and Ethical Explorations | Herman W. CAPPELEN | Wed | 17:00 -- 18:50 | CPD-LG.10 | 120 | 6 |
+| Artificial Intelligence | CCAI9007 | Hacking Aging: Partnership of Human and Artificial Intelligence | Bonny B.H. YUEN | Wed | 15:00 -- 16:50 | CPD-LG.09 | 120 | 6 |
+| Artificial Intelligence | CCAI9008 | Shaping Population Medicine with AI | Abraham K.C. WAI | Wed | 15:00 -- 16:50 | MB167 | 120 | 0 |
+| Artificial Intelligence | CCAI9010 | AI, Communication, and Society | Bin CHEN | Wed | 15:00 -- 16:50 | CYPP3 | 120 | 6 |
+| Artificial Intelligence | CCAI9012 | GenAI Solutions to Global Challenges: Using AI Creatively and Responsibly | Mark K.M. TAM | Wed | 17:00 -- 18:50 | LE1 | 120 | 6 |
+| Artificial Intelligence | CCAI9013* | Emotions and AI: Bridging Technology and Human Experience (Section B) | Nicole K.M. LAU | Wed | 13:00 -- 14:50 | MWT3 | 120 | 6 |
+| Artificial Intelligence | CCAI9014 | Governing AI: Crime, Punishment and Responsibility | Boris BABIC | Wed | 17:00 -- 18:50 | CYCP1 | 120 | 6 |
+| Artificial Intelligence | CCAI9015 | Living the Political Life through AI | Brian Y.S. WONG | Wed | 15:00 -- 16:50 | KKLG109 | 120 | 6 |
+| Artificial Intelligence | CCAI9016 | AI for Cities | Xiaohu ZHANG | Wed | 13:00 -- 14:50 | MB217 | 120 | 6 |
+| Artificial Intelligence | CCAI9019 | The Political Economy of AI and Big Data | Vera W.H. YUEN | Wed | 13:00 -- 14:50 | KKLG109 | 120 | 6 |
+| Artificial Intelligence | CCAI9021 | From Homo Sapiens to Artificial Life | Danny CHAN | Wed | 13:00 -- 14:50 | CPD-LG.10 | 120 | 6 |
+| Artificial Intelligence | CCAI9023 | Real Harm in an Unreal World: Crime, Regulation and AI | Isak LADEGAARD | Wed | 15:00 -- 16:50 | KK101 | 120 | 0 |
+| Artificial Intelligence | CCAI9026 | Programmed to Love: Reimagining Gender, Sexuality and Intimacy in the Age of AI | Alison Y.W. SO | Wed | 13:00 -- 14:50 | KK102 | 120 | 0 |
+| Artificial Intelligence | CCAI9028 | The Age of Big Data | Difan ZOU | Wed | 15:00 -- 16:50 | CBA | 120 | 4 |
+| Artificial Intelligence | CCAI9029 | From Human Vision to Extended Reality | Dirk SCHNIEDERS | Wed | 13:00 -- 14:50 | CBA | 120 | 4 |
+| Artificial Intelligence | CCAI9031 | Big Data and AI Solutions to Social Problems | Jian GAO | Wed | 17:00 -- 18:50 | WLGH | 120 | 6 |
+</github-md>
+
+</body>
+  <script src="https://cdn.jsdelivr.net/gh/MarketingPipeline/Markdown-Tag/markdown-tag-GitHub.js"></script>
+</html>
